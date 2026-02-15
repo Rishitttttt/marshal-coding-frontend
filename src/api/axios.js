@@ -12,7 +12,7 @@ const BASE_URL = `${BACKEND_URL}/api`;
 const api = axios.create({
   baseURL: BASE_URL,
   withCredentials: true,
-  timeout: 10000,
+  timeout: 20000,
 });
 
 /* ================= REQUEST INTERCEPTOR ================= */
